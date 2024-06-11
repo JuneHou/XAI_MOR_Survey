@@ -2,7 +2,9 @@
 This repository contains code to generate the XAI methods samples used in the survey, described in our MLHC 2024 paper.
 
 ## Code setup
-This code was developed in python 3.10 using the libraries listed in [Literature Augmented Clinical Outcome Prediction](https://arxiv.org/abs/2111.08374), which repository is [here] (https://github.com/allenai/BEEP) and [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084) (EMNLP 2019), which repository is [here] (https://github.com/UKPLab/sentence-transformers). Please follow instruction of original repository to setup。
+This code was developed in python 3.10 using the libraries listed in [Literature Augmented Clinical Outcome Prediction](https://arxiv.org/abs/2111.08374), which repository is [here] (https://github.com/allenai/BEEP) and [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084) (EMNLP 2019), which repository is [here] (https://github.com/UKPLab/sentence-transformers). Please follow instruction of original repository to setup.
+
+After cloning the two repositories, replace BEEP/outcome-prediction and sentence-transformers/examples/applications/semantic-search/ with the two corresponding folders from this repository.
 
 You will also need download the model weights trained by BEEP. These resources can be downloaded using the following command:
 
@@ -23,3 +25,6 @@ The XAI samples -- LIME, Attention-based and Free-text Rationale -- generation n
 
 The XAI sample, similar patient retrieval, generation file is under the sentence-transformer folder.
 - Similar Patient Retrieval: You will need load fine-tuned embedder. The notebook is located at /sentence-transformers/examples/applications/semantic-search/MOR_STS_ner.ipynb.# XAI_MOR_Survey
+
+## Replicating XAI Mortality Prediction Survey
+We provide one version of the shuffled survey, "XAI Questionnaire A1 - Google Forms.pdf".
