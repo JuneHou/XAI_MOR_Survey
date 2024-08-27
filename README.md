@@ -1,5 +1,5 @@
 # A Survey Study of Explainable AI for Clinical Outcome Prediction
-This repository contains code to generate the XAI methods samples used in the survey, described in our MLHC 2024 paper.
+This repository contains code to generate the XAI methods samples used in the survey, described in our AMIA Informatics Summit 2025 paper.
 
 ## Code setup
 This code was developed in python 3.10 using the libraries listed in [Literature Augmented Clinical Outcome Prediction](https://arxiv.org/abs/2111.08374), which repository is [here] (https://github.com/allenai/BEEP) and [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084) (EMNLP 2019), which repository is [here] (https://github.com/UKPLab/sentence-transformers). Please follow instruction of original repository to setup.
