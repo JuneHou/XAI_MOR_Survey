@@ -1,4 +1,5 @@
 # Statistic Analysis Results
+This folder contains detailed additional statistical analysis and plots for "Summary Findings" in our paper. 
 
 ## Important values for AI 
 
