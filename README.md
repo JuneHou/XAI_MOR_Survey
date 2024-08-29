@@ -21,10 +21,13 @@ In addition to environment setup, you will need access to the MIMIC-III dataset 
 The XAI samples -- LIME, Attention-based and Free-text Rationale -- generation notebook files are under the BEEP folder.
 - LIME: The notebook is located at /BEEP-main/outcome-prediction/MOR_LIME.ipynb
 - Attention-based: The notebook is located at /BEEP-main/outcome-prediction/MOR_Attention.ipynb
-- Free-text Rationale: The notebook is located at /BEEP-main/outcome-prediction/MOR_GPT.ipynb. We use the Guidance wrapper, which can be installed by ```pip install guidance``` following the instruction at [here](https://github.com/guidance-ai/guidance). You will need GPT API to generate the sample.
+- Free-text Rationale: The notebook is located at /BEEP-main/outcome-prediction/MOR_GPT.ipynb. We use the Guidance wrapper, which can be installed by ```pip install guidance``` following the instruction at [here](https://github.com/guidance-ai/guidance). You will need GPT API to generate the sample. The prompt we used can be found [here](https://github.com/JuneHou/XAI_MOR_Survey/tree/main/Prompts)
 
 The XAI sample, similar patient retrieval, generation file is under the sentence-transformer folder.
 - Similar Patient Retrieval: You will need load fine-tuned embedder. The notebook is located at /sentence-transformers/examples/applications/semantic-search/MOR_STS_ner.ipynb.# XAI_MOR_Survey
 
 ## Replicating XAI Mortality Prediction Survey
 We provide one version of the shuffled survey, "XAI Questionnaire A1 - Google Forms.pdf".
+
+## Additional Statistic Analysis
+The detailed statistic analysis in addition to what included in the main paper can be found [here](https://github.com/JuneHou/XAI_MOR_Survey/tree/main/Statistic%20Analysis)
