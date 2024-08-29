@@ -3,12 +3,12 @@ This folder contains detailed additional statistical analysis and plots for "Sum
 
 ## Important values for AI 
 
-Figure 10 shows which values were selected as most important for AI by study participants. We present these split by participants with AI experience and those without. Among those without AI experience (the majority), the most important values highlighted were Safety (24), Privacy (20), Performance (17), Accountability (13),
-Human Autonomy (12), and Transparency (11). Among those with AI experimence, the most important values selected were Safety (6), Performance (5), Beneficence (5), Privacy (4), Accountability (3), Human Autonomy (3), Transparency (3), and Dignity (3).
+[This figure](https://github.com/JuneHou/XAI_MOR_Survey/blob/main/Statistic%20Analysis/Feature_Experience.png) shows most  important values for AI selected by participants from among a list of 13 values adapted from [Jakesch et al. (2022)](https://dl.acm.org/doi/fullHtml/10.1145/3531146.3533097), split by whether the participant has
+had experience with AI.. Among those without AI experience (the majority), the most important values highlighted were Safety (24), Privacy (20), Performance (17), Accountability (13), Human Autonomy (12), and Transparency (11). Among those with AI experimence, the most important values selected were Safety (6), Performance (5), Beneficence (5), Privacy (4), Accountability (3), Human Autonomy (3), Transparency (3), and Dignity (3).
 
 ## Comfort level for decision-making with admission note 
 
-Before presenting the XAI methods, we show participants an unchanged version of a patient admission note and asked participants to report their comfort level, on a five-point scale, for predicting the mortality outcome using the note. Figure 11 displays results categorized by the participant’s highest level of education. A large majority of participants reported being slightly or very comfortable with the decision-making task (n=22). Whereas only 4 participants reported being slightly or very uncomfortable with the task.
+[This figure](Statistic Analysis/comfort_edu.png) displays results categorized by the participant’s highest level of education. Before presenting the XAI methods, we show participants an unchanged version of a patient admission note and asked participants to report their comfort level, on a five-point scale, for predicting the mortality outcome using the note. A large majority of participants reported being slightly or very comfortable with the decision-making task (n=22). Whereas only 4 participants reported being slightly or very uncomfortable with the task.
 
 ## Amount of information provided by each XAI method 
 
