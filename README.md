@@ -4,7 +4,7 @@ This repository contains code to generate the XAI methods samples used in the su
 ## Code setup
 This code was developed in python 3.10 using the libraries listed in [Literature Augmented Clinical Outcome Prediction](https://arxiv.org/abs/2111.08374), which repository is [here](https://github.com/allenai/BEEP) and [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/abs/1908.10084) (EMNLP 2019), which repository is [here](https://github.com/UKPLab/sentence-transformers). Please follow instruction of original repository to setup.
 
-The folder named in corresponding repository followed their structure, and added the file required to replicate the generation of samples. After cloning the two repositories, replace BEEP/outcome-prediction and sentence-transformers/examples/applications/semantic-search/ with the two corresponding folders from this repository.
+The folder named in the corresponding repository followed their structure and added the file required to replicate the generation of samples. After cloning the two repositories, replace BEEP/outcome-prediction and sentence-transformers/examples/applications/semantic-search/ with the two corresponding folders from this repository.
 
 You will also need download the model weights trained by BEEP. These resources can be downloaded using the following command:
 
